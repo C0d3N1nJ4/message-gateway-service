@@ -1,4 +1,4 @@
-package com.naiomi.messagegateway;
+package com.naiomi.message.gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

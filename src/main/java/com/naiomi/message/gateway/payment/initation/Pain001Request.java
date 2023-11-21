@@ -1,9 +1,13 @@
-package com.naiomi.messagegateway.pain001;
+package com.naiomi.message.gateway.payment.initation;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 
 import java.util.UUID;
 
+@Entity
 public record Pain001Request (
-     UUID messageIdentification,
+     @Id UUID messageIdentification,
      String creationDateTime,
      String numberOfTransactions,
      String controlSum,
